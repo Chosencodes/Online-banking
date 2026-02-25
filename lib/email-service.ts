@@ -97,14 +97,14 @@ export async function sendNotificationEmail(
       </head>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-          <h1 style="color: #2563eb; margin-top: 0;">Credix Vault Bank</h1>
+          <h1 style="color: #2563eb; margin-top: 0;">Credit Suisse Bank</h1>
         </div>
         <div style="background-color: #ffffff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;">
           <h2 style="color: #1f2937; margin-top: 0;">${title}</h2>
           <div style="color: #4b5563; white-space: pre-wrap;">${message}</div>
         </div>
         <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 12px; text-align: center;">
-          <p>This is an automated notification from Credix Vault Bank.</p>
+          <p>This is an automated notification from Credit Suisse Bank.</p>
           <p>Please do not reply to this email.</p>
         </div>
       </body>
@@ -113,7 +113,7 @@ export async function sendNotificationEmail(
 
   await sendEmail({
     to: userEmail,
-    subject: `Credix Vault Bank - ${title}`,
+    subject: `Credit Suisse Bank - ${title}`,
     html,
   });
 }
@@ -169,7 +169,7 @@ export async function sendTransactionReceiptEmail(
       </head>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-          <h1 style="color: #2563eb; margin-top: 0;">Credix Vault Bank</h1>
+          <h1 style="color: #2563eb; margin-top: 0;">Credit Suisse Bank</h1>
         </div>
         <div style="background-color: #ffffff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;">
           <h2 style="color: #1f2937; margin-top: 0;">Transaction Receipt</h2>
@@ -247,9 +247,10 @@ export async function sendTransactionReceiptEmail(
           </div>
         </div>
         <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 12px; text-align: center;">
-          <p>This is an automated receipt from Credix Vault Bank.</p>
-          <p>Please keep this receipt for your records.</p>
-          <p>If you did not authorize this transaction, please contact support immediately.</p>
+          <p>This is an automated receipt from Credit Suisse Bank.</p>
+        </div>
+        <div style="text-align: center; margin-top: 20px; font-size: 12px; color: #6b7280;">
+          <p>&copy; ${new Date().getFullYear()} Credit Suisse Bank. All rights reserved.</p>
         </div>
       </body>
     </html>

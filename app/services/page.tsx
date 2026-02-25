@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { CredixNavbar } from "@/components/credix-navbar";
+import { CreditSuisseNavbar } from "@/components/credit-suisse-navbar";
 
 export default function ServicesPage() {
   const services = [
@@ -100,7 +100,7 @@ export default function ServicesPage() {
 
   return (
     <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
-      <CredixNavbar />
+      <CreditSuisseNavbar />
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 dark:from-primary-800 dark:via-primary-900 dark:to-gray-900 overflow-hidden">
         <div className="absolute inset-0">
@@ -208,7 +208,7 @@ export default function ServicesPage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-primary-100 to-teal-100 dark:from-primary-900/50 dark:to-teal-900/50 text-primary-700 dark:text-primary-300 rounded-full text-sm font-semibold mb-4">
               <i className="fa-solid fa-star mr-2"></i>
-              Why Choose Credix Vault Bank
+              Why Choose Credit Suisse Bank
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
               Banking Made Simple, Secure, and Personal
@@ -257,7 +257,7 @@ export default function ServicesPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied members who trust Credix Vault Bank for their banking needs. Open an account today and experience the difference.
+            Join thousands of satisfied members who trust Credit Suisse Bank for their banking needs. Open an account today and experience the difference.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

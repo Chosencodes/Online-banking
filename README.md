@@ -1,7 +1,7 @@
-# Credix Vault Bank - Modern Banking Platform
+# Credit Suisse Bank - Modern Banking Platform
 
 ## Overview
-Credix Vault Bank is a modern, user-friendly banking platform built with Next.js, offering a comprehensive suite of banking features with a beautiful and intuitive interface. The platform supports both light and dark modes for optimal viewing in any environment.
+Credit Suisse Bank is a modern, user-friendly banking platform built with Next.js, offering a comprehensive suite of banking features with a beautiful and intuitive interface. The platform supports both light and dark modes for optimal viewing in any environment.
 
 ## Features
 

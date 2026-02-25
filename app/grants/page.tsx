@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { CredixNavbar } from "@/components/credix-navbar";
+import { CreditSuisseNavbar } from "@/components/credit-suisse-navbar";
 
 export default function GrantsAidPage() {
   return (
     <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
-      <CredixNavbar />
+      <CreditSuisseNavbar />
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-br from-orange-600 via-orange-700 to-orange-800 dark:from-orange-800 dark:via-orange-900 dark:to-gray-900 overflow-hidden">

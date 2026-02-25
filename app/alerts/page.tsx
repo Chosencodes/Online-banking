@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { CredixNavbar } from "@/components/credix-navbar";
+import { CreditSuisseNavbar } from "@/components/credit-suisse-navbar";
 
 export default function BusinessBankingPage() {
   return (
     <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
-      <CredixNavbar />
+      <CreditSuisseNavbar />
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 dark:from-blue-800 dark:via-blue-900 dark:to-gray-900 overflow-hidden">
@@ -50,7 +50,7 @@ export default function BusinessBankingPage() {
                 Built for Business Success
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                Whether you're a startup, small business, or established company, Credix Vault Bank offers business banking solutions tailored to your needs. We provide the tools and support to help your business thrive.
+                Whether you're a startup, small business, or established company, Credit Suisse Bank offers business banking solutions tailored to your needs. We provide the tools and support to help your business thrive.
               </p>
               <div className="space-y-4">
                 {[
@@ -119,7 +119,7 @@ export default function BusinessBankingPage() {
       <section className="py-16 lg:py-20 bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-800 dark:to-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            Grow Your Business with Credix Vault Bank
+            Grow Your Business with Credit Suisse Bank
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             Get started with business banking services designed to help your business succeed.

@@ -1,10 +1,15 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import { CredixNavbar } from "@/components/credix-navbar";
+import { useState, useEffect } from "react";
+import { CreditSuisseNavbar } from "@/components/credit-suisse-navbar";
+import { LandingFooter } from "@/components/landing-footer";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 export default function ContactPage() {
+  const [mounted, setMounted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -31,9 +36,13 @@ export default function ContactPage() {
     });
   };
 
+  if (!mounted) {
+    return null;
+  }
+
   return (
-    <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
-      <CredixNavbar />
+    <div className="flex min-h-screen flex-col bg-gray-50 dark:bg-gray-900">
+      <CreditSuisseNavbar />
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 dark:from-primary-800 dark:via-primary-900 dark:to-gray-900 overflow-hidden">
         <div className="absolute inset-0">

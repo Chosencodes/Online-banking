@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { CredixNavbar } from "@/components/credix-navbar";
+import { CreditSuisseNavbar } from "@/components/credit-suisse-navbar";
 
 export default function PersonalBankingPage() {
   return (
     <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
-      <CredixNavbar />
+      <CreditSuisseNavbar />
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 dark:from-primary-800 dark:via-primary-900 dark:to-gray-900 overflow-hidden">
@@ -39,7 +39,7 @@ export default function PersonalBankingPage() {
                 Your Personal Banking Partner
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                At Credix Vault Bank, we understand that personal banking needs vary from person to person. That's why we offer a range of services and products tailored to help you achieve your individual financial goals.
+                At Credit Suisse Bank, we understand that personal banking needs vary from person to person. That's why we offer a range of services and products tailored to help your individual financial goals.
               </p>
               <div className="space-y-4">
                 {[
